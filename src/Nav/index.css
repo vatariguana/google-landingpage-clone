@@ -1,0 +1,89 @@
+.home {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.home-header{
+    display: flex;
+    justify-content: flex-end;
+    height: 48px;
+ padding: 6px;
+ 
+    
+    
+} 
+
+.home-header .a-link{
+    display: inline-block;
+    justify-content: space-between;
+   
+    
+    text-decoration: none;
+    color: rgba(0,0,0,.87);
+    line-height: 24px;
+    vertical-align: middle;
+    padding: 6px;
+    font-family: arial,sans-serif;
+    font: 14px/27px Arial,sans-serif;
+    
+}
+.home-header  .click-a:hover{
+    text-decoration: underline;
+
+}
+.home-header .google-apps{
+    color: #83868A;
+    
+    opacity: 1;
+    padding: 8px;
+    box-sizing: border-box;
+    height: 40px;
+    width: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    
+    border-radius: 2px
+}
+.home-header .button-acceder{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 5px;
+    margin-right: 8px;
+    min-width: 96px;
+    padding: 9px 23px;
+    text-align: center;
+    color: #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    background: #1a73e8;
+    border: 1px solid transparent;
+  
+   
+}
+.home-header .button-acceder:hover{
+    background: #2b7de9;
+    box-shadow: 0 1px 2px 0 rgba(66,133,244,.3),0 1px 3px 1px rgba(66,133,244,.15);
+    border: 1px solid transparent;
+}
+.home-header .google-apps:hover{
+   background-color: #F0F0F0;
+   border-radius: 45%;
+   
+}
+.home_header_imagen{
+    justify-content: center;
+    display: inline-flex;
+    justify-content: center;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+    padding-top: 30px;
+
+}

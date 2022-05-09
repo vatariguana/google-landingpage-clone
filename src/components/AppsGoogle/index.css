@@ -1,0 +1,48 @@
+.apps-container{ 
+    position: fixed;
+    height: 450px;
+    margin-top: 55px;
+    margin-right: 20px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    border: 1px solid grey;
+    box-shadow: 0px 2px 2px 1px rgb(164, 163, 163);
+    border-radius: 5px;
+    overflow-x: hidden;
+    padding: 20px;
+    
+}
+.apps-container .grid-apps{
+    
+   
+    /* display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+            minmax(
+                150px,
+1fr
+            )
+        
+    ); */
+}
+
+ .apps-container .app-individual{
+    justify-content: center;
+    display: inline-block;
+    align-items: center;
+   padding: 20px;
+   width: 94px;    
+   margin: 2px;
+  
+} 
+.apps-container .app-individual:hover{
+  
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: rgba(233, 233, 233, 0.859);
+}
+.apps-container .app-individual img{
+    width: 48px;
+    background-color: rgba(233, 233, 233, 0.859);
+    
+}
