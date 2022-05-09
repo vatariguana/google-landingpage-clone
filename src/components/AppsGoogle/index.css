@@ -12,27 +12,14 @@
     padding: 20px;
     
 }
-.apps-container .grid-apps{
-    
-   
-    /* display: grid;
-    grid-template-columns: repeat(
-        auto-fit,
-            minmax(
-                150px,
-1fr
-            )
-        
-    ); */
-}
-
  .apps-container .app-individual{
     justify-content: center;
     display: inline-block;
     align-items: center;
    padding: 20px;
-   width: 94px;    
+   width: 90px;    
    margin: 2px;
+   
   
 } 
 .apps-container .app-individual:hover{

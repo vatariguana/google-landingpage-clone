@@ -52,38 +52,6 @@ const Navbar = () => {
       {showApps && <AppsGoogle />}
       <button className="button-acceder">Acceder</button>
     </nav>
-
-    // <div className="home">
-    //   <div className="home_header">
-    //     <div className="home_header_div">
-    //       <Link to="/gmail">Gmail</Link>
-    //     </div>
-    //     <div className="home_header_div">
-    //       <Link to="/imagenes">Imágenes</Link>
-    //     </div>
-    //     <div onClick={onClickApps} className="home_header_div">
-    //       <ImParagraphJustify />
-    //     </div>
-    //     {showApps && <AppsGoogle />}
-
-    //     <div className="home_header_div">
-    //       <ImMail />
-    //     </div>
-    //   </div>
-
-    //   {/* <div className="home_header_imagen">
-    //     <img
-    //       class="lnXdpd"
-    //       alt="Google"
-    //       height="92"
-    //       src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
-    //       width="272"
-    //       data-atf="1"
-    //       data-frt="0"
-    //     />
-    //   </div> */}
-    //   <div></div>
-    // </div>
   );
 };
 
