@@ -8,6 +8,8 @@ const Home = () => {
     <div>
       <Navbar />
       <ImagenGoogle />
+      <SearchBar />
+      <Footer />
     </div>
   );
 };
