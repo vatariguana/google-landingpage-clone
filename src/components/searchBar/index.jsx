@@ -1,16 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 import "./index.css";
 import { BsSearch, BsMic } from "react-icons/bs";
 const SearchBar = () => {
+  const [inputValue, setInputValue] = useState("");
+  const onInputChangeGoogle = (e) => {
+    e.preventDefault(e);
+    const value = e.target.value;
+    setInputValue(value);
+  };
+  const onSearchGoogle = (e) => {
+    e.preventDefault();
+  };
   return (
     <form className="container-search ">
       <div className="div-search">
         <BsSearch className="search-lupa" />
-        <input className="search-input" />
+        <input
+          value={inputValue}
+          onClick={onInputChangeGoogle}
+          className="search-input"
+        />
         <BsMic className="search-microf" />
       </div>
       <div className="button-contenedor">
-        <button className="button-searchG">Buscar con google</button>
+        <button onClick={onSearchGoogle} className="button-searchG">
+          Buscar con google
+        </button>
         <button className="button-suerte">Me siento con suerte</button>
       </div>
       <div className="div-label">

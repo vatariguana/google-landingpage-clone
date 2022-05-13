@@ -31,7 +31,7 @@
 .button-contenedor{
     display: flex;
     justify-content: center;
-    margin-top: 11px;
+    
     padding-top: 16px;
 }
 .button-contenedor .button-searchG{

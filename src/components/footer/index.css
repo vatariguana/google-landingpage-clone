@@ -1,6 +1,6 @@
 
 .contenedor-footer{
-    display: flex;
+   
     /* grid-template-columns: repeat(
         auto-fit,
         minmax(
@@ -9,13 +9,20 @@
         )
         
     ); */
+    
+    position: absolute;
+    bottom: 0;
+    width: 100% ;
+    
+}
+.contenedor-footer .contenedor-itemsAll{
+    display: flex;
     flex-wrap: wrap;
     background-color: #F2F2F2;
     font-family: arial,sans-serif;
     margin-top: 164px;
     overflow-x: hidden;
 }
-
 .contenedor-footer .contenedor-ecuador{
     padding: 15px 30px;
     border-bottom: 1px solid #dadce0;
