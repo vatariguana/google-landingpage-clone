@@ -1,9 +1,10 @@
 import React from "react";
 import Home from "./views/home";
+import "./App.css"
 
 function App() {
   return (
-    <div>
+    <div className="global">
       <Home/>
     </div>
   );
