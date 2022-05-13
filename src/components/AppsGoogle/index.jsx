@@ -16,17 +16,6 @@ import traductor from "../../assets/traductor.png";
 import fotos from "../../assets/fotos.png";
 import duo from "../../assets/duo.png";
 import shooping from "../../assets/shooping.png";
-
-// import {
-//   ImGoogle,
-//   ImHangouts,
-//   ImLinkedin,
-//   ImDropbox,
-//   ImGoogleDrive,
-//   ImYoutube,
-//   ImSpotify,
-// } from "react-icons/im";
-
 const AppsGoogle = () => {
   return (
     <div className="apps-container">
