@@ -1,0 +1,29 @@
+.contenedorPreferenciasM{
+    bottom: 35%;
+    position: absolute;
+    right: 3%;
+    z-index: 2;
+    background-color: white;
+}
+.contenedorPreferenciasM .contenedor-all-preferenciasM{
+    border: 1px solid rgb(185, 183, 183);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+}
+.contenedorPreferenciasM .contenedor-all-preferenciasM .contenedor-itemM{
+    color:black;
+    margin-left: 1px;
+    display: flex;
+    padding: 2px;
+}
+.contenedorPreferenciasM .contenedor-all-preferenciasM .contenedor-itemM:hover{
+    background-color: #E5E5E5;
+
+}
+.contenedorPreferenciasM .contenedor-all-preferenciasM .contenedor-itemM .a-probandoM{
+    font-size: 14px;
+    line-height: 23px;
+    cursor: pointer;
+   padding: 4px;
+}

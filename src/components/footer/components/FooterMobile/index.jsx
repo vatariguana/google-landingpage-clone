@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
+import PreferenciasMobile from "../PreferenciasOpciones/PreferenciasMobile/index";
 
 const FooterMobile = () => {
+  const [showPreferencias, setShowPreferencias] = useState(false);
+  const onClickPreferencias = () => {
+    setShowPreferencias(!showPreferencias);
+  };
   return (
     <>
       <div className="col-12 d-hide contenedorAll-items">
@@ -12,7 +17,10 @@ const FooterMobile = () => {
               </a>
             </div>
             <div className="col-6 d-hide items-izquierda-mob">
-              <a href="/#">Preferencias</a>
+              <a onClick={onClickPreferencias} href="/#">
+                Preferencias
+              </a>
+              {showPreferencias && <PreferenciasMobile />}
             </div>
           </div>
         </div>

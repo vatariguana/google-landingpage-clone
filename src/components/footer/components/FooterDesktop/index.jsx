@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Preferencias from "../PreferenciasOpciones";
+import Preferencias from "../PreferenciasOpciones/PreferenciasDes/index";
 
 const FooterDesktop = () => {
   const [showPreferencias, setShowPreferencias] = useState(false);
