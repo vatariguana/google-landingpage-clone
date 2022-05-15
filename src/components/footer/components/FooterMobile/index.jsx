@@ -12,9 +12,7 @@ const FooterMobile = () => {
               </a>
             </div>
             <div className="col-6 d-hide items-izquierda-mob">
-              <a href="https://ads.google.com/intl/es-419_ec/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">
-                Preferencias
-              </a>
+              <a href="/#">Preferencias</a>
             </div>
           </div>
         </div>

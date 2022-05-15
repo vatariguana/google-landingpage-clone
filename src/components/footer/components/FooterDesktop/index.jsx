@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
+import Preferencias from "../PreferenciasOpciones";
 
 const FooterDesktop = () => {
+  const [showPreferencias, setShowPreferencias] = useState(false);
+  const onClickPreferencias = () => {
+    setShowPreferencias(!showPreferencias);
+  };
   return (
     <>
       <div className="col-6 m-hide">
@@ -43,7 +48,10 @@ const FooterDesktop = () => {
               </a>
             </div>
             <div className="col-4 items-derecha">
-              <a href="/#">Preferencias</a>
+              <a onClick={onClickPreferencias} href="/#">
+                Preferencias
+              </a>
+              {showPreferencias && <Preferencias />}
             </div>
           </div>
         </div>
