@@ -4,6 +4,7 @@
     right: 3%;
     z-index: 2;
     background-color: white;
+    border-radius: 8px;
 }
 .contenedorPreferenciasM .contenedor-all-preferenciasM{
     border: 1px solid rgb(185, 183, 183);

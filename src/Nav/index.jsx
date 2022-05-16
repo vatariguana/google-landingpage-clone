@@ -1,10 +1,14 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 // import { useDispatch, useSelector } from "react-redux";
 import AppsGoogle from "../components/AppsGoogle/index";
-import { BsGrid3X3GapFill, BsPersonCircle } from "react-icons/bs";
+import { BsGrid3X3GapFill } from "react-icons/bs";
+import { useAuth0 } from "@auth0/auth0-react";
+import Profile from "./Profile/index";
 import "./index.css";
 
 const Navbar = () => {
+  const { isAuthenticated, loginWithRedirect, logout } = useAuth0();
+
   const [showApps, setShowApps] = useState(false);
 
   const onClickApps = () => {
@@ -39,18 +43,22 @@ const Navbar = () => {
           <BsGrid3X3GapFill />
         </div>
       </a>
-
-      {/* <button
-        type="button"
-        class="btn btn-secondary"
-        data-bs-toggle="tooltip"
-        data-bs-placement="bottom"
-        title="Tooltip on bottom"
-      >
-        Tooltip on bottom
-      </button> */}
       {showApps && <AppsGoogle />}
-      <button className="button-acceder">Acceder</button>
+      {isAuthenticated ? (
+        <>
+          <Profile />
+          <button
+            onClick={() => logout({ returnTo: window.location.origin })}
+            className="button-acceder"
+          >
+            Salir
+          </button>
+        </>
+      ) : (
+        <button onClick={() => loginWithRedirect()} className="button-acceder">
+          Acceder
+        </button>
+      )}
     </nav>
   );
 };

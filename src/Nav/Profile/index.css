@@ -1,0 +1,20 @@
+.profile-auth{
+    width:3%;
+    display: flex;
+    align-items: center;
+
+}
+
+.profile-auth  .imagen-auth{
+    width:100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-info{
+    position: absolute;
+    margin-top: 4%;
+    margin-right: 6%;
+    text-align: center;
+}
