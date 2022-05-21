@@ -4,6 +4,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+## image
+
+<img src="./src/assets/imageproyect.png" alt="imagenproyecto"/>
+<img src="./src/assets/imageapps.png" alt="imagenapps"/>
+<img src="./src/assets/imagenregistro.png" alt="imageregistro"/>
+
 In the project directory, you can run:
 
 ### `npm start`
