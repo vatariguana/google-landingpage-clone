@@ -1,14 +1,36 @@
+# Clone landing page of google
+
+### Deploy
+Link: https://google-landingpage-clone.vercel.app/
+
+### Proyect image
+<img src="./src/assets/imageproyect.png" width="800px" alt="imagenproyecto"/>
+<div>
+  <img src="./src/assets/imageapps.png" width="200px" alt="imagenapps"/>
+ <img src="./src/assets/imagenregistro.png" style="center"width="500px" alt="imageregistro"/>
+ </>
+  <br>
+  
+### 
+Para crear el proyecto utilicé las siguientes tecnologías:<br>
+ ⚡ Javascript <br>
+ ⚡ React <br>
+ ⚡ Css <br>
+ ⚡ Boostrap <br>
+ 
+### 
+Para realizar el deploy utilice: <br>
+⚡ Vercel
+
+###
+Para que el usuario se loguee utilice: <br>
+⚡ Auth0
+ 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
-
-## image
-
-<img src="./src/assets/imageproyect.png" alt="imagenproyecto"/>
-<img src="./src/assets/imageapps.png" alt="imagenapps"/>
-<img src="./src/assets/imagenregistro.png" alt="imageregistro"/>
 
 In the project directory, you can run:
 
